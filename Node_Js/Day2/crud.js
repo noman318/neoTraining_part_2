@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
         console.log(err);
       } else {
         console.log(data.toString());
-        return res.end();
+        return res.end("Done Reading Document");
       }
     });
   } else if (req.url == "/update") {
@@ -35,7 +35,7 @@ const server = http.createServer((req, res) => {
           console.log(err);
         } else {
           console.log("Updated");
-          return res.end();
+          return res.end("Data has been updated");
         }
       }
     );
@@ -46,7 +46,7 @@ const server = http.createServer((req, res) => {
       } else {
         console.log("File is deleted");
         res.end("File has been deleted");
-        return res.end();
+        return res.end("File has been deleted");
       }
     });
   } else {
