@@ -1,0 +1,3 @@
+CSS : Cascading Style Sheet is the basically the scripting language. CSS is used for designing web pages.
+CSS is the most important web technologies that are widely used along with HTML and JavaScript. CSS have file extension of .css.
+SCSS : Syntactically Awesome Style Sheet is the superset of CSS. SCSS is the more advanced version of CSS. SCSS was designed by Hampton Catlin and was developed by Chris Eppstein and Natalie Weizenbaum. Due to its advanced features it is often termed as Sassy CSS. SCSS have file extension of .scss.
